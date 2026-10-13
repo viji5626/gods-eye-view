@@ -349,6 +349,19 @@ const layers = [
     },
   },
   {
+    id: 'live-renewables',
+    aliases: [
+      'renewables',
+      'renewable energy',
+      'solar power',
+      'wind power',
+      'clean energy',
+      'power grid',
+    ],
+    context: false,
+    noQuery: 'grid generation telemetry is visualized via HUD overlay cards',
+  },
+  {
     id: 'telegeography-submarine-cables',
     aliases: ['submarine cables', 'undersea cables', 'cables', 'telegeography'],
     context: false,
